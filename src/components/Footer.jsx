@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer className="bg-black text-white pt-12 pb-6">
@@ -27,8 +28,23 @@ export default function Footer() {
         <div className="flex flex-col gap-2">
           <h3 className="text-slate-100 font-semibold mb-2">Connect with me</h3>
           <div className="flex gap-4 mt-2">
-            <a href="#" className="hover:text-blue-500 transition">GitHub</a>
-            <a href="#" className="hover:text-blue-500 transition">LinkedIn</a>
+              <a
+              href="https://github.com/nafis17032005/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-500 transition"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/nafis-rashdi-a5269933a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-500 transition"
+            >
+              LinkedIn
+            </a>
             <a href="#" className="hover:text-blue-500 transition">Twitter</a>
           </div>
         </div>
