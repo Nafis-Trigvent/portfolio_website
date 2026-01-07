@@ -1,3 +1,4 @@
+import main_image from '../assets/images/main_image.jpg'
 export default function About() {
     return (
         <section
@@ -20,7 +21,7 @@ export default function About() {
                     {/* Left Image */}
                     <div className="flex justify-center">
                         <img
-                            src="https://via.placeholder.com/400x450"
+                            src={main_image}
 
                             alt="About me"
                             className="rounded-2xl shadow-lg w-72 md:w-96 object-cover"

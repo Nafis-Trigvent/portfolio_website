@@ -1,3 +1,4 @@
+import profile_image from '../assets/images/profile_image.jpg'
 export default function Home() {
     return (
         <section
@@ -48,7 +49,7 @@ export default function Home() {
                     <div className="relative">
                         <div className="absolute inset-0 rounded-full bg-blue-600 blur-3xl opacity-20"></div>
                         <img
-                            src="https://via.placeholder.com/350"
+                            src={profile_image}
                             alt="Profile"
                             className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white shadow-xl hover:ring-2 ring-amber-400"
                         />
