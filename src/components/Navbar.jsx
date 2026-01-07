@@ -53,7 +53,7 @@ export default function Navbar() {
             {/* Mobile Menu */}
             {open && (
                 <div className="md:hidden bg-white border-t">
-                    <div className="flex flex-col gap-5 px-6 py-6 text-sm font-medium">
+                    <div className="flex flex-col gap-5 px-6 py-6 text-sm font-medium text-black">
                         {links.map((link) => (
                             <a
                                 key={link.name}
