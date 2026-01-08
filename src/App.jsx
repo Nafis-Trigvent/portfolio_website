@@ -8,6 +8,8 @@ import Projects from './components/Project'
 // import Skill from './components/Skill'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import { Analytics } from "@vercel/analytics/react"
+
 
 function App() {
 
